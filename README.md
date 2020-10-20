@@ -4,9 +4,9 @@
 ### Problem: 
 You have a browser history urls, and you want to iterate through urls.
 
-Any change on the implementation of BrowserHistory urls will require a change in the main loop.
+Any change on the implementation of BrowseHistory urls will require a change in the main loop.
 
-    public class BrowserHistory {
+    public class BrowseHistory {
         private List<String> urls = new ArrayList<>();
         
         public void push(String url) {
@@ -26,7 +26,7 @@ Any change on the implementation of BrowserHistory urls will require a change in
 
     public class Main {
         public static void main(String[] args) {
-            BrowserHistory history = new BrowserHistory();
+            BrowseHistory history = new BrowseHistory();
             history.push("http://url1");
             history.push("http://url2");
             history.push("http://url3");
