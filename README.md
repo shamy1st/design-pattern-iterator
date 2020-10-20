@@ -2,9 +2,10 @@
 
 **Iterator** design pattern used to traverse a container and access the container's elements. ([wiki](https://en.wikipedia.org/wiki/Iterator_pattern))
 ### Problem: 
-Yoh have a browser history urls, and you want to iterate through urls.
+You have a browser history urls, and you want to iterate through urls.
+Any change on the implementation of BrowserHistory urls will require a change in the main loop.
 
-    public class BrowseHistory {
+    public class BrowserHistory {
         private List<String> urls = new ArrayList<>();
         
         public void push(String url) {
