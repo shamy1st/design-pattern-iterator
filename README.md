@@ -26,7 +26,7 @@ Any change on the implementation of BrowserHistory urls will require a change in
 
     public class Main {
         public static void main(String[] args) {
-            BrowseHistory history = new BrowseHistory();
+            BrowserHistory history = new BrowserHistory();
             history.push("http://url1");
             history.push("http://url2");
             history.push("http://url3");
