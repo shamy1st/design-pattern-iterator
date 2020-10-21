@@ -1,4 +1,4 @@
-# Java Implementation of Iterator Design Pattern
+# Iterator Design Pattern (Java Implementation)
 
 **Iterator** design pattern used to traverse a container and access the container's elements. ([wiki](https://en.wikipedia.org/wiki/Iterator_pattern))
 ### Problem: 
