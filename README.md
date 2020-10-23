@@ -1,4 +1,4 @@
-# Iterator Design Pattern (Java Implementation)
+# Iterator Design Pattern (Java)
 
 **Iterator** iterating over an object without exposing the internal structure.
 ### Problem: 
