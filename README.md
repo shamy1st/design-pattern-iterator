@@ -1,6 +1,6 @@
 # Iterator Design Pattern (Java Implementation)
 
-**Iterator** design pattern used to traverse a container and access the container's elements. ([wiki](https://en.wikipedia.org/wiki/Iterator_pattern))
+**Iterator** iterating over an object without exposing the internal structure.
 ### Problem: 
 You have a browser history urls, and you want to iterate through urls.
 
