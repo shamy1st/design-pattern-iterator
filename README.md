@@ -1,6 +1,6 @@
 # Iterator Design Pattern (Java)
-
 **Iterator** iterating over an object without exposing the internal structure.
+![](https://github.com/shamy1st/design-pattern-iterator/blob/main/uml.png)
 ### Problem: 
 You have a browser history urls, and you want to iterate through urls.
 
@@ -37,4 +37,4 @@ Any change on the implementation of BrowseHistory urls will require a change in 
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-iterator-java/blob/main/iterator-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-iterator/blob/main/uml-solution.png)
